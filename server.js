@@ -19,6 +19,6 @@ async function main () {
 if (inputUrl && outputFile) {
   main()
 } else {
-  console.log("inputUrl and outputFile are required")
-  process.exit(1);
+  console.log('inputUrl and outputFile are required')
+  throw new Error('inputUrl and outputFile are required');
 }

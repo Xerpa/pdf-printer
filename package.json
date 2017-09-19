@@ -1,0 +1,7 @@
+{
+  "name": "Pdf printer",
+  "engines" : { "node" : ">=7.6.0" },
+  "dependencies": {
+    "puppeteer": "^0.10.2"
+  }
+}
